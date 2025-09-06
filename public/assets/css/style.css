@@ -1,0 +1,136 @@
+.banner{
+    height: 90vwh;
+    width: 100%;
+    background-color: #3A5661;
+    padding: 40px 30px;
+    /* margin-top: 100px; */
+   
+}
+.banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+}
+
+
+/* solution */
+.solution{
+    margin-top: 50px;
+    /* height: 100vh; */
+    width: 100%;
+    height: 80vh;
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+}   
+.solution .solution-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.solution .solution-content .solution-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+    height: 80%;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
+}
+
+.solution .solution-content .solution-card:hover {
+    transform: translateY(-8px);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 25px;
+}
+
+.solution-card h3{
+    font-size: 18px;
+    font-weight: 600;
+    height: 20%;
+}
+.solution-text{
+    font-size: 16px;
+    height: 40%;
+    
+}
+.solution .solution-content .solution-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* numbers */
+.numbers{
+    margin-top: 80px;
+    /* height: 100vh; */
+    width: 100%;
+    height: 50vh;
+    background-color: #3A5661;
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+}
+.numbers .numbers-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    height: 30%;
+
+}
+.numbers .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.numbers .num{
+    font-size: 40px;
+    font-weight: bold;
+    color: #f5f5f5;
+    text-transform: uppercase;
+
+}
+.numbers .col p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width: 990px) {
+    .solution .solution-content .solution-card {
+        width: 80%;
+    }
+     .banner{
+        height: auto;
+    }
+     .solution{
+        height: auto;
+    } 
+    .numbers{
+        height: auto;
+    }
+    
+}
