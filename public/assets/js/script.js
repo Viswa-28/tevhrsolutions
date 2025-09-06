@@ -40,22 +40,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // swipper
-
-  const partnerSwiper = new Swiper('.partner-swiper', {
-    loop: true,
-    slidesPerView: 4,
-    spaceBetween: 30,
-    autoplay: {
-      delay: 0,              // No delay between slides
-      disableOnInteraction: false
+ document.addEventListener("DOMContentLoaded", function () {
+    const partnerSwiper = new Swiper('.partner-swiper', {
+      loop: true,
+      freeMode: true,                    // Enables non-snapping scrolling
+      slidesPerView: 'auto',            // Dynamic width support
+      spaceBetween: 10,
       
-    },
-    speed: 2000,             // Adjust speed of scrolling
-    grabCursor: true,
-    breakpoints: {
-      320: { slidesPerView: 2 },
-      576: { slidesPerView: 3 },
-      768: { slidesPerView: 4 },
-      992: { slidesPerView: 5 }
-    }
+
+
+      autoplay: {
+        delay: 0,                       // No delay for continuous scroll
+        disableOnInteraction: false,
+        stopOnLastSlide: false
+      },
+      speed: 2000,                      // Higher = slower/smoother scroll
+      grabCursor: true
+    });
   });

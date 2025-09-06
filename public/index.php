@@ -65,35 +65,78 @@ include './includes/header.php';
         </div>
     </section>
 
-     <section class="numbers  d:flex align-items-center justify-content-center flex-column ">
+    <section class="numbers  d:flex align-items-center justify-content-center flex-column ">
 
-            <div class="numbers-content mt-5 gap-3 d-flex flex-column align-items-center justify-content-center">
-                <div class="fs-36 text-center mt-5 text-white">Our Impact in Numbers</div>
-                <div class="fs-24 text-center">Numbers that speak for our commitment to excellence and innovation in
-                    mobility solutions.</div>
+        <div class="numbers-content mt-5 gap-3 d-flex flex-column align-items-center justify-content-center">
+            <div class="fs-36 text-center mt-5 text-white">Our Impact in Numbers</div>
+            <div class="fs-24 text-center">Numbers that speak for our commitment to excellence and innovation in
+                mobility solutions.</div>
+        </div>
+        <div class="row   w-100 m-0 mt-md-5 mt-lg-0  d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
+                <div class="num" data-target="15">0 +</div>
+                <p class="text-white">Years of Innovation</p>
             </div>
-            <div class="row   w-100 m-0 mt-md-5 mt-lg-0  d-flex align-items-center justify-content-center">
-                <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
-                    <div class="num" data-target="15">0 +</div>
-                    <p class="text-white">Years of Innovation</p>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
-                    <div class="num" data-target="50">0 +</div>
-                    <p class="text-white">Happy Customers</p>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
-                    <div class="num" data-target="200">0+</div>
-                    <p class="text-white">Cities Served</p>
-                </div>
-                <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
-                    <div class="num" data-target="99">0%</div>
-                    <p class="text-white">Satisfaction Rate</p>
-                </div>
+            <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
+                <div class="num" data-target="50">0 +</div>
+                <p class="text-white">Happy Customers</p>
             </div>
+            <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
+                <div class="num" data-target="200">0+</div>
+                <p class="text-white">Cities Served</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center justify-content-start">
+                <div class="num" data-target="99">0%</div>
+                <p class="text-white">Satisfaction Rate</p>
+            </div>
+        </div>
 
 
 
-        </section>
+    </section>
+    <section class="vision">
+
+        <div class="row w-100 m-0 d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-6 col-lg-5 left d-flex flex-column " data-aos="fade-down-right">
+                <h2 class="text-center text-lg-start">Our Mission</h2>
+                <p class="text-center text-lg-start">To simplify HR for businesses of all sizes by delivering reliable, innovative, and cost-effective
+                    solutions.</p>
+                <ul class="vision-list text-center text-lg-start d-flex flex-column gap-2 justify-content-center align-items-center align-items-lg-start">
+                    <li><i class="bi bi-check background-color "></i> Sustainable transportation solutions
+                    </li>
+                    <li><i class="bi bi-check background-color "></i> Cutting-edge technology integration
+                    </li>
+                    <li><i class="bi bi-check background-color "></i> Accessible mobility for everyone</li>
+                    <!-- <li></li> -->
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5 right" data-aos="fade-down-left">
+                <h2 class="text-center text-md-start mb-3">Our Vision</h2>
+                <p class="text-center text-md-start mb-4">To become the most trusted HR partner, empowering organizations to build happier, high-performing
+                    teams.</p>
+                <img src="./assets/images/vision.png" alt="Our Vision" class="img-fluid mb-4">
+            </div>
+        </div>
+    </section>
+    <section class="partner">
+        <h1 class="fs-36 text-center">Trusted by Industry Leaders</h1>
+        <p class="text-center fs-24 text-dark">
+            Join the growing community of organizations that trust TEV HR SOLUTIONS
+        </p>
+
+        <div class="swiper partner-swiper mt-5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/images/partner/rapido.png" alt="rapido-logo" /></div>
+                <div class="swiper-slide"><img src="./assets/images/partner/blue.png" alt="blue-logo" /></div>
+                <div class="swiper-slide"><img src="./assets/images/partner/pidge.png" alt="pidge-logo" /></div>
+                <div class="swiper-slide"><img src="./assets/images/partner/porter.png" alt="porter-logo" /></div>
+                <div class="swiper-slide"><img src="./assets/images/partner/qwqer.png" alt="qwqer-logo" /></div>
+                <div class="swiper-slide"><img src="./assets/images/partner/steam.png" alt="steam-logo" /></div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 </main>
