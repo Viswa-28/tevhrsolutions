@@ -1,0 +1,119 @@
+/* Container fix (you had a typo: "contaier") */
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.clients{
+    width: 90%!important;
+}
+.clients .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    background-color: #fff;
+    height: 100%;
+
+}
+
+.clients .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Logo Image */
+.card-img-top {
+    height: 100px;
+    object-fit: contain;
+    /* padding: 15px; */
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Button container */
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn-container .btn {
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 4px;
+    flex: 1 1 auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Add Client Button */
+.primary-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.primary-btn a {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.primary-btn a:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .btn-container .btn {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}

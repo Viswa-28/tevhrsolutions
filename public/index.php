@@ -1,5 +1,6 @@
 <?php
 include './includes/header.php';
+include './includes/navbar.php';
 
 ?>
 
@@ -97,7 +98,7 @@ include './includes/header.php';
     <section class="vision">
 
         <div class="row w-100 m-0 d-flex align-items-center justify-content-center">
-            <div class="col-12 col-md-6 col-lg-5 left d-flex flex-column " data-aos="fade-down-right">
+            <div class="col-12 col-md-6 col-lg-5 left d-flex flex-column " >
                 <h2 class="text-center text-lg-start">Our Mission</h2>
                 <p class="text-center text-lg-start">To simplify HR for businesses of all sizes by delivering reliable, innovative, and cost-effective
                     solutions.</p>
@@ -110,7 +111,7 @@ include './includes/header.php';
                     <!-- <li></li> -->
                 </ul>
             </div>
-            <div class="col-12 col-md-6 col-lg-5 right" data-aos="fade-down-left">
+            <div class="col-12 col-md-6 col-lg-5 right" >
                 <h2 class="text-center text-md-start mb-3">Our Vision</h2>
                 <p class="text-center text-md-start mb-4">To become the most trusted HR partner, empowering organizations to build happier, high-performing
                     teams.</p>
