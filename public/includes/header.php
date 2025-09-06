@@ -54,13 +54,16 @@ $server = basename($_SERVER['PHP_SELF']);
     elseif ($server === 'dashboard.php') {
         echo '<link rel="stylesheet" href="../assets/css/dashboard.css">';
     } elseif ($server === 'clients-dash.php') {
-        echo '<link rel="stylesheet" href="../assets/css/client-dash.css">';
+        echo '<link rel="stylesheet" href="./assets/css/client-dash.css">';
     } elseif ($server === 'applications.php') {
         echo '<link rel="stylesheet" href="../assets/css/applications.css">';
     } elseif ($server === 'enquiry.php') {
         echo '<link rel="stylesheet" href="../assets/css/enquiry.css">';
     }
     elseif ($server === 'add-clients.php') {
+        echo '<link rel="stylesheet" href="./assets/css/add.css">';
+    }
+    elseif ($server === 'edit-clients.php') {
         echo '<link rel="stylesheet" href="./assets/css/add.css">';
     }
     ?>

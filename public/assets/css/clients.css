@@ -1,0 +1,11 @@
+.clients-hero{
+ 
+    height: 100px;
+}
+.clients-hero .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+

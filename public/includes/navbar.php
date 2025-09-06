@@ -23,13 +23,13 @@ include('./includes/header.php');
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 gap-4 mb-lg-0 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $server === 'index.php' ? 'active' : ''; ?>" href="/index.php">Home</a>
+                            <a class="nav-link <?php echo $server === 'index.php' ? 'active' : ''; ?>" href="../index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $server === 'clients.php' ? 'active' : ''; ?>" href="/clients.php">Clients</a>
+                            <a class="nav-link <?php echo $server === 'clients.php' ? 'active' : ''; ?>" href="./clients.php">Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $server === 'about.php' ? 'active' : ''; ?>" href="/about.php">About Us</a>
+                            <a class="nav-link <?php echo $server === 'about.php' ? 'active' : ''; ?>" href="./about.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?php echo $server === 'contact.php' ? 'active' : ''; ?>" href="/contact.php">Contact</a>

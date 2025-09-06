@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       loop: true,
       freeMode: true,                    // Enables non-snapping scrolling
       slidesPerView: 'auto',            // Dynamic width support
-      spaceBetween: 10,
+      spaceBetween: 30,
       
 
 

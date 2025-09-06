@@ -37,8 +37,8 @@ body {
 .primary-btn {
     display: inline-block;
     padding: 14px 28px;
-    background: #659599;
-    color: white;
+    background: #6bdce7;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 1rem;
     border: 2px solid transparent;
