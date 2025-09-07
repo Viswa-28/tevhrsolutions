@@ -35,6 +35,8 @@ include('./includes/admin-nav.php');
                             <p class="card-text"><strong><?php echo $hr2_name; ?></strong>: <?php echo $hr2_number; ?></p>
                             <div class="btn-container">
             <a href="edit-clients.php?id=<?php echo $row['id']; ?>" class="btn primary-btn">Edit</a>
+          <a href="delete.php?id=<?php echo $row['id']; ?>" class="text-decoration-none  primary-btn
+        ">Delete Client</a>
                                 <a href="./assets/uploads/<?php echo $payment_image; ?>" target="_blank" class="btn primary-btn">View Payment Screenshot</a>
 
                             </div>
@@ -55,6 +57,7 @@ include('./includes/admin-nav.php');
     <div class="primary-btn">
         <a href="add-clients.php" class="text-decoration-none  primary-btn
         ">Add New Client</a>
+        
     </div>
 
 

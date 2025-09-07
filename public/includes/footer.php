@@ -7,7 +7,7 @@
 
         <div class="col-12 col-md-6 col-lg-5 d-flex flex-column  align-items-center align-items-lg-start justify-content-center gap-5 text-white ">
         <img src="./assets/images/footerlogo.png" alt="logo" class="footerlogo">
-        <p class="text-center text-lg-start">Connecting people and opportunities to build stronger teams</p>
+        <p class="text-center text-lg-start">We specialize in recruiting dependable delivery agents for businesses across sectors. Our mission is to strengthen last-mile logistics by connecting the right talent with the right opportunities.</p>
 
         </div>
         <div class="col-12 col-md-6 col-lg-3  d-flex flex-column  align-items-center align-items-lg-start align-items-lg-start justify-content-center gap-3 text-white ">

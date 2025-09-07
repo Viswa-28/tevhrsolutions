@@ -8,22 +8,25 @@ include('./includes/header.php');
 
 <form action="add-clients.php" method="POST" enctype="multipart/form-data">
     <label>Logo Image:</label>
-    <input type="file" name="logo_image" required><br>
+    <input type="file" name="logo_image" required>
 
     <label>Payment Screenshot:</label>
-    <input type="file" name="payment_image" required><br>
+    <input type="file" name="payment_image" required>
 
     <label>HR 1 Name:</label>
-    <input type="text" name="hr1_name" required><br>
+    <input type="text" name="hr1_name" required>
 
     <label>HR 2 Name:</label>
-    <input type="text" name="hr2_name" required><br>
+    <input type="text" name="hr2_name" required>
 
     <label>HR 1 Number:</label>
-    <input type="text" name="hr1_number" required><br>
+    <input type="text" name="hr1_number" required>
 
     <label>HR 2 Number:</label>
-    <input type="text" name="hr2_number" required><br>
+    <input type="text" name="hr2_number" required>
+
+    <label>Description:</label>
+    <textarea name="description" rows="5" placeholder="Enter client description..." required></textarea>
 
     <button type="submit" name="submit">Submit</button>
 </form>
