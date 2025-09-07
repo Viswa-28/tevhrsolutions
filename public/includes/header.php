@@ -66,6 +66,9 @@ $server = basename($_SERVER['PHP_SELF']);
     elseif ($server === 'edit-clients.php') {
         echo '<link rel="stylesheet" href="./assets/css/add.css">';
     }
+    elseif ($server === 'details.php') {
+        echo '<link rel="stylesheet" href="./assets/css/details.css">';
+    }
     ?>
 
     <!-- AOS -->
