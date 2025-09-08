@@ -45,7 +45,7 @@ $server = basename($_SERVER['PHP_SELF']);
     } elseif ($server === 'clients.php') {
         echo '<link rel="stylesheet" href="/assets/css/clients.css">';
     } elseif ($server === 'about.php') {
-        echo '<link rel="stylesheet" href="/assets/css/about.css">';
+        echo '<link rel="stylesheet" href="./assets/css/about.css">';
     } elseif ($server === 'contact.php') {
         echo '<link rel="stylesheet" href="./assets/css/contact.css">';
     } elseif ($server === 'admin-login.php') {
