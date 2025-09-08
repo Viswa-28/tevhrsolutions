@@ -57,13 +57,7 @@ include('./includes/header.php');
     <?php
     if ($server === 'index.php') {
         echo '<script src="./assets/js/script.js"></script>';
-    } elseif ($server === 'clients.php') {
-        echo '<script src="/assets/js/clients.js"></script>';
-    } elseif ($server === 'about.php') {
-        echo '<script src="/assets/js/about.js"></script>';
-    } elseif ($server === 'contact.php') {
-        echo '<script src="/assets/js/contact.js"></script>';
-    }
+    } 
     ?>
     <script>
         AOS.init();

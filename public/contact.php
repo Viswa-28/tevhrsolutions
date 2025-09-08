@@ -51,7 +51,7 @@ include('../config.php');
         <i class="bi bi-geo-alt-fill bg-danger primary-btn"></i>
       </div>
       <p class="fs-18">Office Address</p>
-      <p class="fs-18 text-center">X32M+VPC Vilangudi,<br>Madurai, Tamil Nadu</p>
+      <p class="fs-18 text-center">Vilangudi,Madurai, Tamil Nadu</p>
     </div>
   </div>
 

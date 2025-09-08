@@ -23,7 +23,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3  d-flex flex-column  align-items-center align-items-lg-start justify-content-center gap-3 text-white">
         <h3>Contact Us</h3>
-        <p class="text-center text-lg-start">X32M+VPC Vilangudi, Madurai, Tamil Nadu</p>
+        <p class="text-center text-lg-start"><i class="bi bi-geo-alt-fill ms-2"></i> Vilangudi, Madurai, Tamil Nadu</p>
         <p class="text-center text-lg-start"><i class="bi bi-telephone-fill ms-2"></i> +91 74189 76422</p>
         <p class="text-center text-lg-start"><i class="bi bi-envelope-fill ms-2"></i> Tevhrsolution@gmail.com</p>
 
