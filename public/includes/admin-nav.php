@@ -25,16 +25,16 @@ $server = basename($_SERVER['PHP_SELF']);
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 gap-4 mb-lg-0 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $server === 'dashboard.php' ? 'active' : ''; ?>" href="../dashboard.php">dashboard</a>
+                            <a class="nav-link <?php echo $server === 'dashboard.php' ? 'active' : ''; ?>" href="./dashboard.php">dashboard</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?php echo $server === 'clients-dash.php' ? 'active' : ''; ?>" href="./clients-dash.php">Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $server === 'applications.php' ? 'active' : ''; ?>" href="../applications.php">Applications</a>
+                            <a class="nav-link <?php echo $server === 'applications.php' ? 'active' : ''; ?>" href="./applications.php">Applications</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $server === 'enquiry.php' ? 'active' : ''; ?>" href="../enquiry.php">Enquiry</a>
+                            <a class="nav-link <?php echo $server === 'enquiry.php' ? 'active' : ''; ?>" href="./enquiry.php">Enquiry</a>
                         </li>
                     </ul>
                 </div>

@@ -69,6 +69,9 @@ $server = basename($_SERVER['PHP_SELF']);
     elseif ($server === 'details.php') {
         echo '<link rel="stylesheet" href="./assets/css/details.css">';
     }
+    elseif($server === 'applications.php') {
+        echo '<link rel="stylesheet" href="./assets/css/applications.css">';
+    }
     ?>
 
     <!-- AOS -->
