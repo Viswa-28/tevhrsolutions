@@ -61,7 +61,7 @@ include('./includes/navbar.php');
 
 <section class="Trust">
 
-<div class="row w-100">
+<div class="row w-100 d-flex align-items-center justify-content-center">
     <div class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center ">
         <img src="./assets/images/trust.png" alt="" class="img-fluid h-75 w-75 object-fit cover ">
     </div>
