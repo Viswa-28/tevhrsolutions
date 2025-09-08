@@ -26,13 +26,13 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-<div class="row logo">
+<div class="row logo ">
     <div class="col text-center">
         <img src="./assets/uploads/<?php echo $image; ?>" class="img-fluid" alt="">
     </div>
 </div>
 
-<div class="row payment-chart my-5">
+<div class="row payment-chart my-5 d-flex align-items-center justify-content-center">
     <div class="col">
         <h2 class="fs-70 text-black text-center mb-3">pay out Chart</h2>
         <img src="./assets/uploads/<?php echo $payment_image; ?>" class="img-fluid payment" alt="">
@@ -71,16 +71,16 @@ if (isset($_GET['id'])) {
 
 
 
-<div class="support">
+<div class="support mt-5">
     <div class="col text-center d-flex flex-column align-items-center justify-content-center gap-4">
         <h2 class="fs-70 text-black mb-3"> Support</h2>
 
-       <div class="first d-flex gap-5  mb-3">
+       <div class="first d-flex justify-content-lg-between justify-content-center flex-column flex-lg-row gap-lg-5  mb-3">
         <h3 class="text-black"><?php echo $hr1; ?></h3>
         <p class="text-black primary-btn"><i class="bi bi-telephone-fill ms-2"></i> <?php echo $hr1_number; ?></p>
        </div>
 
-       <div class="second d-flex justify-content-between gap-5  mb-3">
+       <div class="second d-flex justify-content-lg-between  justify-content-center flex-column flex-lg-row  gap-lg-5  mb-3">
         <h3 class="text-black"><?php echo $hr2; ?></h3>
         <p class="text-black primary-btn"><i class="bi bi-telephone-fill ms-2"></i> <?php echo $hr2_number; ?></p>
        </div>

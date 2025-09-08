@@ -47,12 +47,12 @@ $server = basename($_SERVER['PHP_SELF']);
     } elseif ($server === 'about.php') {
         echo '<link rel="stylesheet" href="/assets/css/about.css">';
     } elseif ($server === 'contact.php') {
-        echo '<link rel="stylesheet" href="/assets/css/contact.css">';
+        echo '<link rel="stylesheet" href="./assets/css/contact.css">';
     } elseif ($server === 'admin-login.php') {
         echo '<link rel="stylesheet" href="./assets/css/style.css">';
     }
-    elseif ($server === 'dashboard.php') {
-        echo '<link rel="stylesheet" href="../assets/css/dashboard.css">';
+    elseif ($server === 'create-admin.php') {
+        echo '<link rel="stylesheet" href="./assets/css/dashboard.css">';
     } elseif ($server === 'clients-dash.php') {
         echo '<link rel="stylesheet" href="./assets/css/client-dash.css">';
     } elseif ($server === 'applications.php') {

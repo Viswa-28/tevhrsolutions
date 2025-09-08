@@ -33,12 +33,17 @@ body {
     color: #f5f5f5;
     /* text-transform: uppercase; */
 }
+.fs-18{
+    font-size: clamp(1rem, 0.963rem + 0.1852vw, 1.125rem);
+    text-align: center;
+    color: black;
+}
 
 .primary-btn {
     display: inline-block;
     padding: 14px 28px;
-    background: #6bdce7;
-    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, #659599, #3A5661);
+    color: rgb(249, 244, 244);
     font-weight: 600;
     font-size: 1rem;
     border: 2px solid transparent;
@@ -68,6 +73,14 @@ body {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 
 }
+.gradient-text {
+  background: linear-gradient(to right, #659599, #3A5661);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 
 
 /* navbar */
@@ -214,6 +227,9 @@ footer .col ul li a {
         height: 60px;
         width: 60px;
     }
-
-
+    .primary-btn {
+        padding: 5px 10px;
+    }
 }
+
+

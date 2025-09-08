@@ -153,4 +153,76 @@ gap: 30px;
   .apply h2 {
     font-size: 2rem;
   }
+
+  .apply input[type="text"],
+  .apply input[type="email"],
+  .apply input[type="tel"],
+  .apply input[type="submit"] {
+    font-size: 0.9rem;
+  }
+  .payment-chart img{
+    height: 300px !important;
+    width: 300px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.apply {
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.apply h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.apply input[type="submit"] {
+  padding: 0.5rem;
+}
+.apply input[type="text"],
+.apply input[type="email"],
+.apply input[type="tel"],
+.apply input[type="submit"] {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+}
+@media screen and (max-width: 480px) {
+    .payment-chart img{
+        height: 200px !important;
+        width: 200px !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    .apply {
+        padding: 1.5rem 1rem;
+        width: 100%;
+      }
+      
+      .apply h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      
+      .apply input[type="submit"] {
+        padding: 0.5rem;
+      }
+      .apply input[type="text"],
+      .apply input[type="email"],
+      .apply input[type="tel"],
+      .apply input[type="submit"] {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+      }
+      
+      .apply input[type="text"],
+      .apply input[type="email"],
+      .apply input[type="tel"],
+      .apply input[type="submit"] {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+      }
+  
 }

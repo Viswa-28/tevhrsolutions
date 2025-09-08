@@ -1,0 +1,94 @@
+.icon {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Optional: Add custom color for orange */
+.bg-orange {
+  background-color: #ff8800 !important;
+}
+
+/* ========== Process Cards ========== */
+.process .col-12 {
+  background-color: #fff;
+  padding: 25px 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.process .col-12:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Map Section ========== */
+.map {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Enquiry Section ========== */
+.enqury {
+  background: linear-gradient(to top, #fffefe, #3A5661);
+  padding: 60px 20px;
+}
+
+/* ========== Responsive Fixes ========== */
+@media (max-width: 992px) {
+  .fs-70 {
+    font-size: 2.5rem;
+  }
+  .fs-30 {
+    font-size: 1.5rem;
+  }
+
+  .process .col-12 {
+    width: 45% !important;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs-70 {
+    font-size: 2rem;
+  }
+  .fs-30 {
+    font-size: 1.25rem;
+  }
+  .fs-24, .fs-20 {
+    font-size: 1rem;
+  }
+
+  .heading p,
+  .heading h1 {
+    width: 100% !important;
+    padding: 0 10px;
+  }
+
+  .process .col-12 {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .map {
+    width: 100%;
+    height: auto;
+  }
+
+  .form .form-control {
+    font-size: 14px;
+  }
+
+  .primary-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}

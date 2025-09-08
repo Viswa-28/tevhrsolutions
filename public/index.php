@@ -12,7 +12,7 @@ include './includes/navbar.php';
         <div class="row d-flex align-items-center justify-content-center w-100 m-0 gap-5">
             <div class="col banner-content gap-lg-5 gap-3">
                 <h1 class="fs-70 text-center">
-                    TEV HR SOLUTIONS connects
+                    <span class="">TEV HR SOLUTIONS</span> connects
                     you to companies that
                     value your work
                 </h1>
