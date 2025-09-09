@@ -36,7 +36,7 @@ include './includes/navbar.php';
         <div class="row gap-5 solution-content w-100 m-0 d-flex align-items-start  justify-content-center mt-5">
             <div data-aos="flip-left"
                 class="col-lg-2 col-md-4 col-12 solution-card  p-5 d-flex flex-column align-items-center justify-content-center">
-                <img src="./assets/images/talent-acquistion.png" alt="talent-acquisition">
+                <img loading="lazy" loading="lazy" src="./assets/images/talent-acquistion.png" alt="talent-acquisition">
                 <h3 class="text-center">Talent Acquisition</h3>
                 <p class="text-center solution-text">Find the right candidates faster with data driven recruitment.
                 </p>
@@ -44,20 +44,20 @@ include './includes/navbar.php';
 
             <div data-aos="flip-left"
                 class="col-lg-2 col-md-4 col-12 solution-card  p-5 d-flex flex-column align-items-center justify-content-center">
-                <img src="./assets/images/payroll.png" alt="payroll">
+                <img loading="lazy" src="./assets/images/payroll.png" alt="payroll">
                 <h3 class="text-center w-100">Payroll Management</h3>
                 <p class="text-center solution-text w-100">Hassle free salary management and legal compliance.</p>
             </div>
             <div data-aos="flip-left"
                 class="col-lg-2 col-md-4 col-12 solution-card  p-5 d-flex flex-column align-items-center justify-content-center">
-                <img src="./assets/images/employee-engagement.png" alt="employee-engagement">
+                <img loading="lazy" src="./assets/images/employee-engagement.png" alt="employee-engagement">
                 <h3 class="text-center w-100 ">Employee Engagement</h3>
                 <p class="text-center w-100  solution-text">Improve retention with culture-focused HR strategies..
                 </p>
             </div>
             <div data-aos="flip-left"
                 class="col-lg-2 col-md-4 col-12 solution-card  p-5 d-flex flex-column align-items-center justify-content-center">
-                <img src="./assets/images/training and development.png" alt="training and development">
+                <img loading="lazy" src="./assets/images/training and development.png" alt="training and development">
                 <h3 class="text-center w-100 ">Training and Development</h3>
                 <p class="text-center w-100 solution-text">Upskill your workforce with tailored programs,
                     everyone.</p>
@@ -102,7 +102,7 @@ include './includes/navbar.php';
                 <h2 class="text-center text-lg-start">Our Mission</h2>
                 <p class="text-center text-lg-start">To simplify HR for businesses of all sizes by delivering reliable, innovative, and cost-effective
                     solutions.</p>
-                <ul class="vision-list text-center text-lg-start d-flex flex-column gap-2 justify-content-center align-items-center align-items-lg-start">
+                <ul class="vision-list text-center text-lg-start d-flex flex-column gap-2 justify-content-center align-items-start">
                     <li><i class="bi bi-check background-color "></i> Sustainable transportation solutions
                     </li>
                     <li><i class="bi bi-check background-color "></i> Cutting-edge technology integration
@@ -115,27 +115,38 @@ include './includes/navbar.php';
                 <h2 class="text-center text-md-start mb-3">Our Vision</h2>
                 <p class="text-center text-md-start mb-4">To become the most trusted HR partner, empowering organizations to build happier, high-performing
                     teams.</p>
-                <img src="./assets/images/vision.png" alt="Our Vision" class="img-fluid mb-4">
+                <img loading="lazy" src="./assets/images/vision.png" alt="Our Vision" class="img loading="lazy"-fluid mb-4">
             </div>
         </div>
     </section>
-    <section class="partner">
-        <h1 class="fs-36 text-center">Trusted by Industry Leaders</h1>
-        <p class="text-center fs-24 text-dark">
-            Join the growing community of organizations that trust TEV HR SOLUTIONS
-        </p>
+  <section class="partner">
+  <h1 class="fs-36 text-center">Trusted by Industry Leaders</h1>
+  <p class="text-center fs-24 text-dark">
+    Join the growing community of organizations that trust TEV HR SOLUTIONS
+  </p>
 
-        <div class="swiper partner-swiper mt-5">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./assets/images/partner/rapido.png" alt="rapido-logo" /></div>
-                <div class="swiper-slide"><img src="./assets/images/partner/blue.png" alt="blue-logo" /></div>
-                <div class="swiper-slide"><img src="./assets/images/partner/pidge.png" alt="pidge-logo" /></div>
-                <div class="swiper-slide"><img src="./assets/images/partner/porter.png" alt="porter-logo" /></div>
-                <div class="swiper-slide"><img src="./assets/images/partner/qwqer.png" alt="qwqer-logo" /></div>
-                <div class="swiper-slide"><img src="./assets/images/partner/steam.png" alt="steam-logo" /></div>
-            </div>
-        </div>
-    </section>
+  <div class="partner-slider">
+    <div class="slider-track">
+      <!-- Slides repeated twice for infinite scroll effect -->
+      <div class="slide"><img src="./assets/images/partner/rapido.png" alt="rapido" /></div>
+      <div class="slide"><img src="./assets/images/partner/bluedart.png" alt="blue" /></div>
+      <div class="slide"><img src="./assets/images/partner/pidge.png" alt="pidge" /></div>
+      <div class="slide"><img src="./assets/images/partner/porter.png" alt="porter" /></div>
+      <div class="slide"><img src="./assets/images/partner/qwqer.png" alt="qwqer" /></div>
+      <div class="slide"><img src="./assets/images/partner/steam.png" alt="steam" /></div>
+
+      <!-- Duplicate -->
+      <div class="slide"><img src="./assets/images/partner/rapido.png" alt="rapido" /></div>
+      <div class="slide"><img src="./assets/images/partner/bluedart.png" alt="blue" /></div>
+      <div class="slide"><img src="./assets/images/partner/pidge.png" alt="pidge" /></div>
+      <div class="slide"><img src="./assets/images/partner/porter.png" alt="porter" /></div>
+      <div class="slide"><img src="./assets/images/partner/qwqer.png" alt="qwqer" /></div>
+      <div class="slide"><img src="./assets/images/partner/steam.png" alt="steam" /></div>
+    </div>
+  </div>
+</section>
+
+
 
 
 

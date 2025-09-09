@@ -1,5 +1,5 @@
 <?php
-include('../config.php');
+include('./config.php');
 // Update path if needed
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

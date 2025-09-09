@@ -1,5 +1,5 @@
 <?php
-include('../config.php');
+include('./config.php');
 include('./includes/header.php');
 include('./includes/admin-nav.php');
 

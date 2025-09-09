@@ -1,6 +1,6 @@
 <a href="./clients.php" class="back-btn"><i class="bi bi-arrow-left-circle-fill"></i></a>
 <?php
-include('../config.php');
+include('./config.php');
 include('./includes/header.php');
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -77,12 +77,12 @@ if (isset($_GET['id'])) {
 
        <div class="first d-flex justify-content-lg-between justify-content-center flex-column flex-lg-row gap-lg-5  mb-3">
         <h3 class="text-black"><?php echo $hr1; ?></h3>
-        <p class="text-black primary-btn"><i class="bi bi-telephone-fill ms-2"></i> <?php echo $hr1_number; ?></p>
+        <a href="tel:<?php echo $hr1_number; ?>" class="text-decoration-none text-white primary-btn"><i class="bi bi-telephone-fill ms-2"></i> <?php echo $hr1_number;?></a>
        </div>
 
        <div class="second d-flex justify-content-lg-between  justify-content-center flex-column flex-lg-row  gap-lg-5  mb-3">
         <h3 class="text-black"><?php echo $hr2; ?></h3>
-        <p class="text-black primary-btn"><i class="bi bi-telephone-fill ms-2"></i> <?php echo $hr2_number; ?></p>
+        <a href="tel:<?php echo $hr2_number; ?>" class="text-decoration-none text-white primary-btn"><i class="bi bi-telephone-fill ms-2"></i> <?php echo $hr2_number;?></a>
        </div>
     </div>
 </div>

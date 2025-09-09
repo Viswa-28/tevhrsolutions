@@ -5,7 +5,7 @@ if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
     exit();
 }
 
-include('../config.php');
+include('./config.php');
 include('./includes/header.php');
 include('./includes/admin-nav.php');
 ?>

@@ -1,7 +1,7 @@
 <?php
 include('./includes/admin-nav.php');
 include('./includes/header.php');
-include('../config.php');
+include('./config.php');
 ?>
 
 <h1 class="text-center text-black fs-70">New Applications</h1>

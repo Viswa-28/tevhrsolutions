@@ -1,7 +1,7 @@
 <?php
 include('./includes/admin-nav.php');
 include('./includes/header.php');
-include('../config.php');
+include('./config.php');
 
 ?>
 

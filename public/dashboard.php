@@ -6,7 +6,7 @@ if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
     exit();
 }
 
-include('../config.php');
+include('./config.php');
 include('./includes/header.php');  // Your CSS and Bootstrap
 include('./includes/admin-nav.php');  // Navigation bar
 

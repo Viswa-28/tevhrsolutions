@@ -1,5 +1,5 @@
 <?php
-include('../config.php');   
+include('./config.php');   
 
 // Handle Testimonial Submission
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

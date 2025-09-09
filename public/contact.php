@@ -1,7 +1,7 @@
 <?php
 include('./includes/header.php');
 include('./includes/navbar.php');
-include('../config.php');
+include('./config.php');
 
 ?>
 
@@ -74,7 +74,7 @@ include('../config.php');
   <div class="row w-100 m-0 mt-2 d-flex flex-column align-items-center justify-content-center h-100">
     <div class="col text-center d-flex flex-column align-items-center justify-content-center ">
       <img src="./assets/images/address.png" alt="Location" class="img-fluid map mb-3" style="max-width: 90%; height: 70%;">
-     <div class="btn primary-btn ">
+     <div class="btn primary-btn w-50">
   <a href="https://www.google.com/maps/place/X32M+VPC+Vilangudi,+Madurai,+Tamil+Nadu"
      target="_blank"
      style="color: inherit; text-decoration: none;">
@@ -87,7 +87,7 @@ include('../config.php');
 </section>
 
 
-<section class="enqury">
+<section class="enqury mt-5">
     <div class="heading ">
         <h2 class="fs-30 text-white text-center">
         Quick Query

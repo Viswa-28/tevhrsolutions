@@ -38,23 +38,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-// swipper
- document.addEventListener("DOMContentLoaded", function () {
-    const partnerSwiper = new Swiper('.partner-swiper', {
-      loop: true,
-      freeMode: true,                    // Enables non-snapping scrolling
-      slidesPerView: 'auto',            // Dynamic width support
-      spaceBetween: 30,
-      
-
-
-      autoplay: {
-        delay: 0,                       // No delay for continuous scroll
-        disableOnInteraction: false,
-        stopOnLastSlide: false
-      },
-      speed: 2000,                      // Higher = slower/smoother scroll
-      grabCursor: true
-    });
-  });
